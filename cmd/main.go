@@ -9,7 +9,7 @@ import (
 
 func main() {
 	address := flag.String("address", "", "ethereum address")
-	privateKey := flag.String("private-key", "", "ethereum address")
+	privateKey := flag.String("private-key", "", "ethereum private key")
 
 	flag.Parse()
 
